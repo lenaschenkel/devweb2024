@@ -1,0 +1,52 @@
+
+        p::first-letter{
+            font-size: 2em;
+            color: red;
+            border-radius: 40px;
+            padding: 20px;
+            margin: 20px;
+        }
+        p{
+            color: aliceblue;
+            background-color: greenyellow;
+            border-radius: 40px;
+            padding: 20px;
+            margin: 20px;
+            transform: rotate(48deg);
+            animation: myAnim 10s ease 0s 1 normal forwards;
+
+        }
+
+        body {
+            color : rgb(60, 165, 60); 
+            background-color: blue;
+        }
+        h2 {
+            color: aqua;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: blueviolet;
+        }
+        li{
+            display: inline;
+            color: aliceblue;
+            background-color: black;
+        }
+        li:hover{ 
+            background-color: palevioletred;
+            color: red;
+        }
+        .vert{
+            color: greenyellow;
+        }
+        @keyframes myAnim {
+            0%,
+            50%,
+            100% {
+                opacity: 1;
+            }
+        
+            25%,
+            75% {
+                opacity: 0;
+            }
+        }
